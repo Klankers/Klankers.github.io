@@ -4,23 +4,11 @@ main:
     url: /
   - title: "Contact"
     url: /contact/
-  - title: "Group"
-    url: /group/
-  - title: "Publications"
-    url: /publications/
-  - title: "Research"
-    url: /research/
-  - title: "Teaching"
-    url: /teaching/
-  - title: "Opportunities"
-    url: /opportunities/
-  - title: "In the media"
-    url: /media/
 
   #   url: https://mmistakes.github.io/minimal-mistakes/about/
   # - title: "Sample Posts"
   #   url: /year-archive/
   # - title: "Sample Collections"
   #   url: /collection-archive/
-  # - title: "Sitemap"
-  #   url: /sitemap/
+  - title: "Sitemap"
+    url: /sitemap/
