@@ -1,3 +1,4 @@
+_site/
 _site/feed.xml
 _site/index.html
 _site/jekyll-theme-dinky.gemspec
@@ -16,3 +17,6 @@ _site/script/release
 _site/script/validate-html
 .sass-cache/6b7a260c1f432489ff3588c64d8ff9751eaa82e8/jekyll-theme-dinky.scssc
 .sass-cache/6b7a260c1f432489ff3588c64d8ff9751eaa82e8/rouge-github.scssc
+_site/:title/index.html
+_site/bananas/index.html
+_site/blog/index.html
