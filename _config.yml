@@ -10,23 +10,25 @@
 # Review documentation to determine if you should use `theme` or `remote_theme`
 # https://mmistakes.github.io/minimal-mistakes/docs/quick-start-guide/#installing-the-theme
 
-theme: jekyll-theme-dinky
+# theme                  : "minimal-mistakes-jekyll"
+# remote_theme           : "mmistakes/minimal-mistakes"
+minimal_mistakes_skin: "air" #"default" # "air", "aqua", "contrast", "dark", "dirt", "neon", "mint", "plum", "sunrise"
 
 # Site Settings
 locale: "en-US"
 title: "Aaron Mau"
 title_separator: "|"
-subtitle: "Oceanographer" # site tagline that appears below site title in masthead
+subtitle: "Oceanographer at SIO" # site tagline that appears below site title in masthead
 name: "Aaron Mau"
-description: "Oceanographic instrumentation, data QA/QC."
-url: "https://klankers.github.io" # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
+description: "Hydrothermal Geochemistry, Repeat Hydrography, Ocean Modelling."
+url: "https://Klankers.github.io" # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
 baseurl: # the subpath of your site, e.g. "/blog"
 repository: "Klankers/Klankers.github.io" # GitHub username/repo-name e.g. "mmistakes/minimal-mistakes"
 teaser: # path of fallback teaser image, e.g. "/assets/images/500x300.png"
 logo: # path of logo image to display in the masthead, e.g. "/assets/images/88x88.png"
 masthead_title: # overrides the website title displayed in the masthead, use " " for no title
 #breadcrumbs            : false # true, false (default)
-words_per_minute: # 200
+words_per_minute:
 comments:
   provider: # false (default), "disqus", "discourse", "facebook", "staticman", "staticman_v2", "utterances", "custom"
   disqus:
@@ -97,28 +99,34 @@ social:
 
 # Analytics
 analytics:
-  provider: # "google" # false (default), "google", "google-universal", "custom"
+  provider: "google" # false (default), "google", "google-universal", "custom"
   google:
-    tracking_id: # UA-144181004-1
+    tracking_id:
     anonymize_ip: false # true, false (default)
 
 # Site Author
 author:
   name: "Aaron Mau (he/him)"
-  avatar: "/assets/images/fisk_geometrisk_lite.png"
-  bio: "Data Analyst, SIO"
-  location: "San Diego, CA"
+  avatar: "/assets/images/profile.jpg"
+  bio: "Data Analyst<br /> Scripps Institution of Oceanography<br /> University of California"
+  location: "San Diego, CA, USA"
   email: "ajmau@ucsd.edu"
   links:
     - label: "Email"
       icon: "fas fa-fw fa-envelope-square"
       #url: ""
-    # - label: "Lattes"
-    #   icon: "fas fa-fw fa-link"
-    #   url:
+    - label: "Wikipedia"
+      icon: "fab fa-fw fa-wikipedia-w"
+      url: "https://en.wikipedia.org/wiki/User:W%C3%BCnderbrot"
+    - label: "Steam"
+      icon: "fab fa-fw fa-steam-square"
+      url: "https://steamcommunity.com/id/AKLANK"
     - label: "GitHub"
       icon: "fab fa-fw fa-github"
       url: "https://github.com/Klankers"
+    - label: "Google Scholar"
+      icon: "fab fa-fw fa-google"
+      url: "https://scholar.google.com/citations?user=xCqJVg8AAAAJ&hl"
     # - label: "Twitter"
     #   icon: "fab fa-fw fa-twitter-square"
     #   url: ""
@@ -208,7 +216,7 @@ sass:
 permalink: /:categories/:title/
 paginate: 5 # amount of posts to show
 paginate_path: /page:num/
-timezone: America/Los_Angeles # https://en.wikipedia.org/wiki/List_of_tz_database_time_zones
+timezone: America/Sao_Paulo # https://en.wikipedia.org/wiki/List_of_tz_database_time_zones
 
 # Plugins (previously gems:)
 plugins:

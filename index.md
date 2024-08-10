@@ -1,125 +1,24 @@
 ---
-layout: default
-title: main page
-has_children: true
+layout: single
+author_profile: true
+title: "About"
+header:
+  image: /assets/images/rr2204_sunset.jpg
 ---
 
-Text can be **bold**, _italic_, or ~~strikethrough~~.
+##  What I Do
 
-[Link to another page](./another-page/).
+I'm a sea-going data analyst at the [Scripp's Institution of Oceanography](https://scripps.ucsd.edu/) in San Diego, California. As a member of the [Oceanographic Data Facility (ODF)](https://scripps.ucsd.edu/ships/shipboard-technical-support/odf), I get to sail on a variety of vessels and troubleshoot issues with data acquisition, do data post-processing, and help collect and document scientific samples.
 
-There should be whitespace between paragraphs.
+##  My Background
 
-There should be whitespace between paragraphs. We recommend including a README, or a file with information about your project.
+Born and raised in Seattle, I graduated from the University of Washington in 2018 with a bachelor's degree in Oceanography (specializing in [ocean technology](https://www.ocean.washington.edu/story/OTP_Home)), with a minor in applied mathematics. Interested in the ocean tech around [Axial Seamount](https://en.wikipedia.org/wiki/Axial_Seamount), I was able to sail on another hydrothermal trip to the [Lost City Vent Field](https://lostcity.biology.utah.edu/) in 2018.
 
-# Header 1
+From there, I set off in 2019 for the University of South Carolina to work on a master's studying submarine hydrothermal organic geochemistry. We sailed to the [Mid-Cayman Rise](https://en.wikipedia.org/wiki/Mid-Cayman_Rise) in January of 2020, sampling vent fluids from one of the deepest mafic vent systems in the world. I used those samples to study dissolved organic compounds using gas chromatography, isotope-ratio mass spectrometry, and nuclear magnetic resonance.
 
-This is a normal paragraph following a header. GitHub is a code hosting platform for version control and collaboration. It lets you and others work together on projects from anywhere.
+With my graduate degree in hand in 2021, I headed back to the west coast to work with the ODF and sail around the world with the goal of providing quality, transparent data to the oceanographic community and funding programs.
 
-## Header 2
+##  On The Side
 
-> This is a blockquote following a header.
->
-> When something is important enough, you do it even if the odds are not in your favor.
+When I'm not out in the field or in front of my screen, I'm most likely out hiking, gaming, or watching movies.
 
-### Header 3
-
-```js
-// Javascript code with syntax highlighting.
-var fun = function lang(l) {
-  dateformat.i18n = require('./lang/' + l)
-  return true;
-}
-```
-
-```ruby
-# Ruby code with syntax highlighting
-GitHubPages::Dependencies.gems.each do |gem, version|
-  s.add_dependency(gem, "= #{version}")
-end
-```
-
-#### Header 4
-
-*   This is an unordered list following a header.
-*   This is an unordered list following a header.
-*   This is an unordered list following a header.
-
-##### Header 5
-
-1.  This is an ordered list following a header.
-2.  This is an ordered list following a header.
-3.  This is an ordered list following a header.
-
-###### Header 6
-
-| head1        | head two          | three |
-|:-------------|:------------------|:------|
-| ok           | good swedish fish | nice  |
-| out of stock | good and plenty   | nice  |
-| ok           | good `oreos`      | hmm   |
-| ok           | good `zoute` drop | yumm  |
-
-### There's a horizontal rule below this.
-
-* * *
-
-### Here is an unordered list:
-
-*   Item foo
-*   Item bar
-*   Item baz
-*   Item zip
-
-### And an ordered list:
-
-1.  Item one
-1.  Item two
-1.  Item three
-1.  Item four
-
-### And a nested list:
-
-- level 1 item
-  - level 2 item
-  - level 2 item
-    - level 3 item
-    - level 3 item
-- level 1 item
-  - level 2 item
-  - level 2 item
-  - level 2 item
-- level 1 item
-  - level 2 item
-  - level 2 item
-- level 1 item
-
-### Small image
-
-![Octocat](https://github.githubassets.com/images/icons/emoji/octocat.png)
-
-### Large image
-
-![Branching](https://guides.github.com/activities/hello-world/branching.png)
-
-
-### Definition lists can be used with HTML syntax.
-
-<dl>
-<dt>Name</dt>
-<dd>Godzilla</dd>
-<dt>Born</dt>
-<dd>1952</dd>
-<dt>Birthplace</dt>
-<dd>Japan</dd>
-<dt>Color</dt>
-<dd>Green</dd>
-</dl>
-
-```
-Long, single-line code blocks should not wrap. They should horizontally scroll if they are too long. This line should be long enough to demonstrate this.
-```
-
-```
-The final element.
-```

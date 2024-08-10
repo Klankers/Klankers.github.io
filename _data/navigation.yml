@@ -1,7 +1,17 @@
+# main links
+# Adding titles and urls here will add them to the "main" header
 main:
-  - title: Home
-    link: /
-  - title: About
-    url: /about/
-  - title: Blog
-    link: /blog.html
+  - title: "About"
+    url: /
+  - title: "Contact"
+    url: /contact/
+  - title: "Media"
+    url: /media/
+  - title: "Opportunities"
+    url: /opportunities/
+
+  #   url: https://mmistakes.github.io/minimal-mistakes/about/
+  # - title: "Sample Posts"
+  #   url: /year-archive/
+  # - title: "Sitemap"
+  #   url: /sitemap/
