@@ -115,21 +115,27 @@ author:
     - label: "Email"
       icon: "fas fa-fw fa-envelope-square"
       #url: ""
+    - label: "Google Scholar"
+      icon: "fab fa-fw fa-google"
+      url: "https://scholar.google.com/citations?user=xCqJVg8AAAAJ&hl"
+    - label: "ORCiD"
+      icon: "fab fa-fw fa-orcid"
+      url: "https://orcid.org/0000-0002-5835-3816"
+    - label: "GitHub"
+      icon: "fab fa-fw fa-github"
+      url: "https://github.com/Klankers"
     - label: "Wikipedia"
       icon: "fab fa-fw fa-wikipedia-w"
       url: "https://en.wikipedia.org/wiki/User:W%C3%BCnderbrot"
     - label: "Steam"
       icon: "fab fa-fw fa-steam-square"
       url: "https://steamcommunity.com/id/AKLANK"
-    - label: "GitHub"
-      icon: "fab fa-fw fa-github"
-      url: "https://github.com/Klankers"
-    - label: "Google Scholar"
-      icon: "fab fa-fw fa-google"
-      url: "https://scholar.google.com/citations?user=xCqJVg8AAAAJ&hl"
+
     # - label: "Twitter"
     #   icon: "fab fa-fw fa-twitter-square"
     #   url: ""
+
+    # Using FA v5 - standard usage is "fab {whatever}"
 
 # Site Footer
 footer:
