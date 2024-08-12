@@ -5,6 +5,8 @@ main:
     url: /
   - title: "Contact"
     url: /contact/
+  - title: "My Two ¢"
+    url: /two-cents/
   - title: "Media"
     url: /media/
   - title: "Opportunities"
