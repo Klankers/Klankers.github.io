@@ -45,6 +45,7 @@ This is a list of known cruises that happen on a yearly or biyearly basis
 * [ABScicon](https://www.agu.org/abscicon) - like AGU, but for astrobiologists.
 * [RVTEC](https://www.unols.org/event/meeting/2024-rvtec-meeting) - research vessel technician annual meeting.
 * [ESA](https://earth.esa.int/eogateway/search?category=events) - the European space agency.
+* [Offshore Technology](https://www.otcnet.org/) - Offshore Technology Society, focusing on energy (typically more of a private sector thing).
 
 ##  Scholarships
 
