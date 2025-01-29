@@ -11,3 +11,10 @@ I use this website for both professional and personal use.
     * Ruby v3.1.3+ for Jekyll
     * chruby 0.3.9
 * See the Gemfile for the list of required gems
+
+###  Note to self for local testing
+When reinitializing a terminal:
+* Navigate to the .git folder.
+* Reactivate virtual environment.
+* Reopen VScode (code .). Changes should be visible.
+* When changes have been made, use the following: `bundle exec jekyll serve`.
