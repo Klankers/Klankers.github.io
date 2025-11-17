@@ -18,7 +18,7 @@ minimal_mistakes_skin: "air" #"default" # "air", "aqua", "contrast", "dark", "di
 locale: "en-US"
 title: "Aaron Mau"
 title_separator: "|"
-subtitle: "Oceanographer at SIO" # site tagline that appears below site title in masthead
+subtitle: "Oceanographer at VOTO" # site tagline that appears below site title in masthead
 name: "Aaron Mau"
 description: "Hydrothermal Geochemistry, Repeat Hydrography, Ocean Modelling."
 url: "https://Klankers.github.io" # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
@@ -108,9 +108,9 @@ analytics:
 author:
   name: "Aaron Mau (he/him)"
   avatar: "/assets/images/profile.jpg"
-  bio: "Data Analyst<br /> Scripps Institution of Oceanography<br /> University of California"
-  location: "San Diego, CA, USA"
-  email: "ajmau@ucsd.edu"
+  bio: "Data Analyst<br /> Ocean Knowledge Team<br /> Voice of the Ocean Foundation"
+  location: "Gothenburg, Sweden"
+  email: "aaron.mau@voiceoftheocean.org"
   links:
     - label: "Email"
       icon: "fas fa-fw fa-envelope-square"
