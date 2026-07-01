@@ -2,7 +2,7 @@
 layout: post
 title: "Rebuilding the website"
 date: 2025-11-17
-categories: blog
+categories:
   - blog
   - programming
 ---
