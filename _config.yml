@@ -301,7 +301,7 @@ defaults:
     values:
       layout: single
       author_profile: true
-      permalink: /:title/
+      # permalink: /:title/
 
   # _portfolio
   - scope:
