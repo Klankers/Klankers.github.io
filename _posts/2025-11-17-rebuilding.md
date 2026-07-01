@@ -4,6 +4,8 @@ title: "Rebuilding the website"
 date: 2025-11-17
 categories:
   - blog
+tags:
+  - blog
   - programming
 ---
 Huzzah! It has returned!

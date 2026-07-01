@@ -3,6 +3,8 @@ layout: post
 title: "Google Summer of Code"
 date: 2026-06-04
 categories:
+  - blog
+tags:
   - learning
   - programming
 ---

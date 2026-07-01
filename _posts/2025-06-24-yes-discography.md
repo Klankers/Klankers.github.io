@@ -3,6 +3,8 @@ layout: post
 title: "The Entire Yes Discography"
 date: 2025-06-24
 categories:
+  - blog
+tags:
   - media
   - music
 ---

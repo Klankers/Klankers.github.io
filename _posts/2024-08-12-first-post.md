@@ -4,6 +4,8 @@ title: "My First Blog Post"
 date: 2024-08-12
 categories:
   - blog
+tags:
+  - blog
   - learning
   - programming
 ---
