@@ -2,7 +2,9 @@
 layout: post
 title: "Google Summer of Code"
 date: 2026-06-04
-categories: blog
+categories:
+  - learning
+  - programming
 ---
 We're all aboard the coding train with the Google Summer of Code.
 

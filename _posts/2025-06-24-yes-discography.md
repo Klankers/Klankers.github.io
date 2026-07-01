@@ -2,7 +2,9 @@
 layout: post
 title: "The Entire Yes Discography"
 date: 2025-06-24
-categories: blog
+categories:
+  - media
+  - music
 ---
 Imagine listening to 23 albums in a month to pick out maybe 20 minutes of music you recognize.
 

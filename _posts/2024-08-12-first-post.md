@@ -1,8 +1,11 @@
 ---
-layout: post
+layout: single
 title: "My First Blog Post"
 date: 2024-08-12
-categories: blog
+categories:
+  - blog
+  - learning
+  - programming
 ---
 Here it is! The website is finally live.
 

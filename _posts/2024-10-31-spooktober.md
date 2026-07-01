@@ -2,7 +2,9 @@
 layout: post
 title: "Spooktober 2024"
 date: 2024-11-18
-categories: blog
+categories:
+  - media
+  - movies
 ---
 'Twas the season. Breaking down some recent spooky media.
 
