@@ -1,0 +1,102 @@
+---
+layout: default
+---
+
+{% if page.header.overlay_color or page.header.overlay_image or page.header.image %}
+  {% include page__hero.html %}
+{% endif %}
+
+{% if page.url != "/" and site.breadcrumbs %}
+  {% unless paginator %}
+    {% include breadcrumbs.html %}
+  {% endunless %}
+{% endif %}
+
+<style>
+/* Review layout specific styling */
+.review-header {
+  display: grid;
+  grid-template-columns: 2fr 1fr;
+  gap: 2rem;
+  margin-bottom: 2rem;
+  align-items: start;
+}
+
+.review-infobox {
+  border: 1px solid #e5e5e5;
+  padding: 1rem;
+  background: #fafafa;
+  font-size: 0.9rem;
+}
+
+.review-media img {
+  width: 100%;
+  height: auto;
+  display: block;
+  border-radius: 6px;
+}
+
+@media (max-width: 768px) {
+  .review-header {
+    grid-template-columns: 1fr;
+  }
+}
+</style>
+
+<div id="main" role="main">
+  {% include sidebar.html %}
+
+  <article class="page" itemscope itemtype="https://schema.org/CreativeWork">
+
+    {% if page.title %}
+      <header>
+        <h1 class="page__title">{{ page.title }}</h1>
+      </header>
+    {% endif %}
+
+    <div class="page__inner-wrap">
+
+      <!-- REVIEW HEADER SECTION -->
+      <div class="review-header">
+
+        <!-- LEFT: Infobox -->
+        <aside class="review-infobox">
+          {% if page.infobox %}
+            {{ page.infobox | markdownify }}
+          {% else %}
+            <p>No infobox provided.</p>
+          {% endif %}
+        </aside>
+
+        <!-- RIGHT: Image -->
+        <div class="review-media">
+          {% if page.featured_image %}
+            <img src="{{ page.featured_image }}" alt="{{ page.title }}">
+          {% endif %}
+        </div>
+
+      </div>
+
+      <!-- MAIN CONTENT -->
+      <section class="page__content">
+        {{ content }}
+      </section>
+
+      <footer class="page__meta">
+      {% include page__taxonomy.html %}
+
+      {% if page.date %}
+          <p class="page__date">
+          <strong>Published:</strong>
+          <time datetime="{{ page.date | date_to_xmlschema }}">
+              {{ page.date | date: "%B %d, %Y" }}
+          </time>
+          </p>
+      {% endif %}
+      </footer>
+
+      {% include post_pagination.html %}
+
+    </div>
+  </article>
+</div>
